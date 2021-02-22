@@ -1,0 +1,314 @@
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                            Body / Principal
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+:root {
+    --primario: #71b100;
+    --secundario: #e08709;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 200;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                            Header   /    Slider
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.logo {
+    font-size: 2rem;
+    font-weight: 200;
+}
+.logo span {
+    font-weight: 900;
+}
+.bg-success,
+.btn-success {
+    background-color: #71b100!important;
+    border: #71b100!important;
+}
+.bg-warning,
+.btn-warning {
+    background-color: #e08709!important;
+    border: #e08709!important;
+}
+.dropdown-menu {
+    width: 20%;
+    float: right!important;
+    background-color: #71b100;
+}
+.dropdown-item {
+    color: #ffffff;
+}
+.dropdown-item:hover {
+    background-color: #e08709;
+}
+.dropdown-item:active {
+    box-shadow: 0px 0px 15px #b36b07;
+    color: #000000;
+}
+@media (min-width: 768px) {
+    .fondo.bg-success{
+        background-color: transparent!important;
+    }
+    header {
+        position: relative;
+    }
+    .fondo {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+    }
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: .9rem;
+}
+.carousel-caption h2 {
+    font-size: 2.5rem;
+}
+.sliderInfo p {
+    font-weight: 400;
+}
+.sliderInfo h3 {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.sliderInfo a {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                            Section = Más sobre nosotros
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+.sobreNosotros h3 {
+    font-weight: 500;
+}
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                            Section = Anuncios
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+.anuncios article button {
+    color: #ffffff;
+}
+.anuncios .card-text {
+    font-weight: 200;
+}
+.anuncios .card-precio {
+    color: #71b100;
+}
+.anuncios .card {
+    margin-bottom: 2rem;
+}
+.anuncios .card-descripcion img{
+    margin-right: .5rem;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                            Section = Contactános
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+.encuentra {
+    background: url(../img/contacto.jpg) no-repeat center / cover;
+}
+.encuentra .container .row{
+    height: 25rem;
+}
+.encuentra .btn {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1rem;
+}
+.encuentra h3 {
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+.encuentra p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                            Blog
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.blog h3 {
+    font-weight: 300;
+}
+.blog h3::after {
+    content: "";
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #71b100;
+    margin-top: .5rem;
+}
+.blog p time,
+.blog p cite {
+    color: #e08709;
+    font-style: normal;
+    font-weight: 600;
+}
+.blog p {
+    font-weight: 100;
+}
+.blog .btn {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                            Testimoniales
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+.testimoniales {
+    background-color: #71b100;
+    background: radial-gradient(farthest-side at 0% 200%, #e08709 30%,
+                                                           #71b100 80%);
+}
+.testimoniales blockquote {
+    font-style: italic;
+}
+.testimoniales blockquote footer cite {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-right: 2px ;
+}
+.testimoniales blockquote p {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    padding: 0 1rem;
+}
+.testimoniales blockquote p span {
+    position: relative;
+}
+.testimoniales blockquote p::before {
+    content: open-quote;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    font-size: 4rem;
+}
+.testimoniales blockquote p span::after {
+    content: close-quote;
+    position: absolute;
+    left: -3px;
+    top: 5%;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                            Footer
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.footerFinal nav,
+.footerFinal nav ul .nav-item .nav-link {
+    color: #ffffff ;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footerFinal nav ul .nav-item .nav-link:hover {
+    color: #b7ffbd;
+}
